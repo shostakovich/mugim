@@ -7,7 +7,7 @@ categories: chef, mac
 
 ---
 
-A few weeks ago I switched teams within Gutefrage and I started to familarize myself with some tools from the OPS side.
+A few weeks ago I switched teams within Gutefrage and started to familarize myself with some tools from the OPS side.
 
 One of these tools is chef. Here is a short definition what Chef does, from the Opscode website:
 
@@ -21,9 +21,9 @@ This post explains how to pull this off for a Mac OS X machine.
 
 In the first phase chef needs to be bootstrapped.
 
-Currently I store my recipies on Dropbox. So after installing the OS (manually), I download and install Dropbox.
+I store my cookbooks on Dropbox. So after installing the OS (manually), I download and install Dropbox.
 
-After it has synced I run bootstrap.sh :
+After the sync is done I run bootstrap.sh :
 
 {% codeblock bootstrap.sh %}
 #!/bin/sh
@@ -44,17 +44,18 @@ sudo mkdir /usr/local
 sudo chown -R $USERNAME /usr/local
 {% endcodeblock %}
 
-This installs a compiler, homebrew and some dev-tools like git on the machine.
+This installs a compiler, homebrew and some dev-tools like GIT on the machine.
 
 Last but not least bootsrap.sh installs chef itself.
 
 ## Installing apps & packages
 
-I always use the same tools. In the past I had to remember which one, and it was kind of tedius to download them all manually. So I wanted to fix this first.
+I always use the same tools. In the past I had to remember which one, and it was kind of tedius to download them all manually.
 
-Luckily there are already cookbooks that can install [dmg's](https://github.com/opscode/cookbooks/tree/master/dmg) and apps within [zip's](https://github.com/fnichol/chef-zip_app).
+Luckily there are already cookbooks that can install [dmg's](https://github.com/opscode/cookbooks/tree/master/dmg) and apps within [zip files](https://github.com/fnichol/chef-zip_app).
 
-You just have to download them and off you go:
+You just have to download them and then you can specify which apps to
+install:
 
 {% codeblock package_examples.rb %}
 dmg_package "Google Chrome" do
@@ -108,9 +109,9 @@ This way I can specify all the packages I need in my node.json - the configurati
 
 ## Configuration
 
-I store some of my configuration files in Dropbox.
+I store most of my dotfiles in Dropbox.
 
-So each time I set up a new machine I copy them into my home directory. Last but not least, i change some defaults - for example you could move the Dock out of the way..
+So each time I set up a new machine I symlink them into my home directory. Last but not least, i change some defaults - for example you could move the Dock out of the way..
 
 {% codeblock config_examples.rb %}
 template "#{node['homedir']}/.vimrc" do
@@ -130,19 +131,17 @@ end
 
 ## How can you get started?
 
-I highly recommend giving it a shot! It's fun and definetly education if you have never worked with chef before. 
+I highly recommend giving it a shot! It's fun and definetly education, if you have never worked with chef before. 
 
 For a kickstart with chef-solo, watch [RailsCast 339][1].
 
-Aftwerwars: If you have problems setting up chef-solo, have a look at [how to fix solo.rb][2].
+If you have problems setting up chef-solo on a Mac, have a look at [how to fix solo.rb][2].
 
 If you need further ideas, have a look at the  [workstation setup of pivotal][3].
 
 ## The end
 
 I used the recipe a couple of times already. Its kind of boring, to watch chef setting up your dev-machines. But hey - you could drink some coffee in the meanwhile.
-
-Last but not least: I would love to hear your thoughts about this. Does this make sense at all?
 
 [1]: http://http://railscasts.com/episodes/339-chef-solo-basics
 [2]: http://woss.name/2011/01/23/converging-your-home-directory-with-chef/
