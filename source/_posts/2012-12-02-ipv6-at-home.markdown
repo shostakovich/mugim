@@ -1,0 +1,65 @@
+---
+layout: post
+title: "IPv6 at home"
+date: 2012-10-07 18:29
+comments: true
+categories: 
+---
+Recently I listened to a fantastic episode of "[Chaosradio Express][1]", that covered IPv6 in great detail. I never realized how usefull it is, in order to adress my computers at home.
+
+So I decided to set up a free account for IPv6 through IPv4 tunneling at SixXs. 
+
+
+## The Result
+
+Without having to set up dyndns I can just do:
+    
+    $ ssh mbair.zipf
+
+This article describes how you can do the same.
+
+## Set up the first tunnel
+
+Its relatively simple. Here are the steps I had to do until it worked.
+
+ * sign up on [this][2] page.
+ * confirm your email-address
+ * wait for your account to be activated
+ * [Request a tunnel][3] (AYIYA variant)
+ * wait for the tunnel to be activated
+ * download the [tunnel driver for Mac OS X][4]
+ * alt-klick on the pkg and install it
+ * brew install aiccu
+ * set user/pw in /usr/local/etc/aiccu.conf with your login
+ * set ipv6_interface in your aicuu.conf to tun0
+ * restart you're Mac
+ * **Dont forget to turn on your firewall. You have your own public IP in a minute**
+ * Last but not least start the tunnel:
+
+	sudo /usr/local/sbin/aiccu start
+    
+    
+[1]: http://cre.fm/cre197
+[2]: http://www.sixxs.net/signup/create/
+[3]: https://www.sixxs.net/home/requesttunnel/
+[4]: http://tuntaposx.sourceforge.net/ 
+
+
+You should have connectivity now. You can check it by pinging another IPv6 enabled host. For example:
+
+    ping6 google.com
+    PING6(56=40+8+8 bytes) 2001:4dd0:ff00:f7e::2 --> 2a00:1450:4016:800::1003
+    16 bytes from 2a00:1450:4016:800::1003, icmp_seq=0 hlim=55 time=80.803 ms
+    16 bytes from 2a00:1450:4016:800::1003, icmp_seq=1 hlim=55 time=116.723 ms
+    16 bytes from 2a00:1450:4016:800::1003, icmp_seq=2 hlim=55 time=80.783 ms
+    16 bytes from 2a00:1450:4016:800::1003, icmp_seq=3 hlim=55 time=77.813 ms
+
+## Setting up the second tunnel
+
+Sixxs has a credit system, in order to only give ressources to user, who mean it - so you have keep your first tunnel active for about one week, before you can request a second tunnel. This one you can use for you devices at home.
+        
+Aftwerwads you can reach them from the outside.
+
+## The end
+
+I hope you find it as useful as me :)
