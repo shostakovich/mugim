@@ -3,7 +3,7 @@ layout: post
 title: "Ruby: Reading the source code of OpenStruct."
 date: 2012-12-01 08:16
 comments: true
-categories: 
+categories: Ruby, Read
 ---
 
 ***Ruby version: 1.9.3-p327***
@@ -14,7 +14,7 @@ Here is another read of a Ruby core class: OpenStruct.
 
 ## Initializing an OpenStruct
 
-You can create an OpenStuct with a hash - or you just create a new OpenStruct without any attributes.
+You can create an OpenStuct using hash - or without any attributes.
 
 {% codeblock .initialize.rb %}
 def initialize(hash=nil)
@@ -28,7 +28,7 @@ def initialize(hash=nil)
  end
 {% endcodeblock %}
 
-If you use provide a hash openstruct will go ahead and store all the key/value pairs in an internal hash called table.
+If you use a hash openstruct will go ahead and store all the key/value pairs in an internal hash called table.
 
 {% codeblock .new_ostruct_member.rb %}
 def new_ostruct_member(name)
@@ -42,7 +42,7 @@ end
 protected :new_ostruct_member
 {% endcodeblock %}
 
-It will also go ahead and create getters / setters using [define_singleton_method](http://apidock.com/ruby/Object/define_singleton_method).
+It will also create getters / setters using [define_singleton_method](http://apidock.com/ruby/Object/define_singleton_method).
 
     require 'ostruct'
     coordinate = OpenStruct.new(:x => 1, :y => 2)
@@ -53,7 +53,7 @@ It will also go ahead and create getters / setters using [define_singleton_metho
 	
 ## Modifiable
 
-But wait - what does this modifiable thing in the dynamic setter do? Lets have a look at the code.
+But wait.. What does this modifiable thing in the dynamic setter do? Lets have a look at the code.
 
 {% codeblock .modifiable.rb %}
 def modifiable
@@ -67,7 +67,7 @@ end
 protected :modifiable
 {% endcodeblock %}
 
-Huh? It sets a attribute modifiable and if this does not succeed it throws an exception? If it is modifiable it returns the @table?
+Huh? It sets a attribute modifiable and if it does not succeed it throws an exception? If it is modifiable it returns the @table?
 
 Well to be honest this is not clear at all. The text of the exception states that this is about frozen objects. Hm lets validate this:
 
@@ -78,9 +78,9 @@ Well to be honest this is not clear at all. The text of the exception states tha
 	foo.freeze
 	# nil 
 	foo.send(:modifiable)
-    # TypeError: can't modify frozen OpenStruct
+  # TypeError: can't modify frozen OpenStruct
 
-Ah! - It acts as kind of a gatekeeper by preventing you from changing the OpenStruct if it's frozen. I'm not sure if I like this - it not to clear to me - on the other hand it is tell don't ask. I guess I have to think about it.  
+Ah! - It acts as kind of a gatekeeper to the table, by preventing you from changing the OpenStruct if it's frozen. I'm not sure if I like this - it not to clear to me - on the other hand it is tell don't ask. I guess I have to think about it.  
   
 ## Method missing
 
@@ -116,23 +116,21 @@ Hm… Wow there is some stuff I have never seen before. Lets try to read it line
 
 ***mid.id2name*** converts the method's id (which is a symbol). Into a string.
 
-If the method name has a ***=*** and  it has only one argument assigned then a new entry in the table is created using ***new_ostruct_member*** after that the value if assigned.
+If the method name has a ***=*** and only one argument was used, then a new entry in the table is created using ***new_ostruct_member*** after that the value if assigned.
 
-The elseif block is handling reads on attributes that were not defined. Reads method do have no arguments of course.
+The elseif block handles reads on attributes that were not defined. Getter method have no arguments of course.
 
 	foo = OpenStruct.new
 	#<OpenStruct> 
 	foo.something_random
 	# nil
 
-It looks the mid up in the ***@table***. I have no idea why it does not return nil in the first place here? 
-
-It can not be in the table - because each time we add a new attributes ***new_ostruct_member*** creates dynamic methods. So if the attribute is defined, we do not end up in method missing.
+It looks the ***mid*** up in the ***@table***. I have no idea why it does not return nil in the first place here. The effect is the same, because ach time we add a new attributes ***new_ostruct_member*** creates dynamic methods. So if the attribute is defined, we do not end up in method missing.
 
 For all other functions except:
-* These that have an "=" and one argument 
+* These that have an "=" and one argument
 * And these that have no argument
-* And :[], :[]=
+* And are not :[], :[]=
 
 It raises an exception. If you wondering what this caller(1) thing is:
 
@@ -141,7 +139,7 @@ It raises an exception. If you wondering what this caller(1) thing is:
 
 ## Duplicating an OpenStruct
 
-I had quite a hard time of figuring out what the following function was doing.
+I had quite a hard time of figuring out what the following function was doing. I tried really hard to call it from the console.. :/
 
 {% codeblock .initialize_copy.rb %}
  def initialize_copy(orig)
@@ -151,7 +149,7 @@ I had quite a hard time of figuring out what the following function was doing.
   end
 {% endcodeblock %}
 
-Well it turns out ***initialize_copy*** is used, whenever .clone or .dup are called. This method handles this process. To get the whole picture read this [great article about initialize_dup, initialize_clone and initialize_copy](http://jonathanleighton.com/articles/2011/initialize_clone-initialize_dup-and-initialize_copy-in-ruby/)!
+It turns out ***initialize_copy*** is used, whenever .clone or .dup are called, to duplicate the object. To get the whole picture read this [great article about initialize_dup, initialize_clone and initialize_copy](http://jonathanleighton.com/articles/2011/initialize_clone-initialize_dup-and-initialize_copy-in-ruby/)!
 
 ## Inspect
 
@@ -186,19 +184,19 @@ Ok. The last part of this is straightforward. Every attribute is printed in like
 
 	#<OpenStruct name="Brussel Sprouts">
 	
-But what is this inspect_key stuff all about? Have a look at this experiment.
+What this inspect_key stuff is all about? Have a look at this experiment.
 
-	puts :__inspect_key__
-	# nil
+  	puts :__inspect_key__
+	  # nil
     Thread.new { puts :__inspect_key__ }
     #<Thread:0x007fe2b487b650 sleep>
     
  You see? Every thread has its own key.
  
-	Thread.new do
-	  a = OpenStruct.new(:hello => "foo", :world => "bar")
-	  puts a.inspect
-	end
+    Thread.new do
+	    a = OpenStruct.new(:hello => "foo", :world => "bar")
+  	  puts a.inspect
+	  end
     #<OpenStruct hello="foo", world="bar"> => #<Thread:0x007fe2b4817d80 run> 
  
 ## Marshalling support
