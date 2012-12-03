@@ -8,3 +8,4 @@ Redirect permanent /blog/2012/9/script-to-disable-the-internet-on-mac-os-x/ /blo
 Redirect permanent /blog/2012/9/29/lessons-from-the-prime-factor-decomposer-dojo /blog/2012/09/29/lessons-from-the-prime-factorization-dojo/
 Redirect permanent /blog/2012/9/29/ruby-tapas /blog/2012/09/29/ruby-tapas/
 
+ErrorDocument 404 /error/404.html
