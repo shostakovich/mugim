@@ -5,7 +5,7 @@ date: 2012-10-07 18:29
 comments: true
 categories: 
 ---
-Recently I listened to a fantastic episode of "[Chaosradio Express][1]", that covered IPv6 in great detail. I never realized how usefull it is, in order to adress my computers at home.
+Recently I listened to a fantastic episode of "[Chaosradio Express][1]", that covers IPv6 in great detail. The guest explained how great this is for accessing your home network. I was hooked.
 
 So I decided to set up a free account for IPv6 through IPv4 tunneling at SixXs. 
 
@@ -15,6 +15,8 @@ So I decided to set up a free account for IPv6 through IPv4 tunneling at SixXs.
 Without having to set up dyndns I can just do:
     
     $ ssh mbair.zipf
+    
+And reach my machines inside of my home network. Each machine has its own public IP. Thats exactly how it's supposed to be..
 
 This article describes how you can do the same.
 
@@ -56,10 +58,14 @@ You should have connectivity now. You can check it by pinging another IPv6 enabl
 
 ## Setting up the second tunnel
 
-Sixxs has a credit system, in order to only give ressources to user, who mean it - so you have keep your first tunnel active for about one week, before you can request a second tunnel. This one you can use for you devices at home.
+Sixxs has a credit system, in order to only give ressources to user, who really use IPv6 it. You have keep your first tunnel active for about one week, before you can request the second tunnel.
+
+This one you can use for you devices at home.
         
-Aftwerwads you can reach them from the outside.
+Aftwerwads you're done. For convenience you might want to add an entry to your /etc/hosts.
 
-## The end
+    2a00:4aa0:4016:fba::2 homeserver
+    
+Done.
 
-I hope you find it as useful as me :)
+I hope you find this as usefull as I do.
