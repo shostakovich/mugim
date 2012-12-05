@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /mint/
+
+Sitemap: http://mug.im/sitemap.xml
