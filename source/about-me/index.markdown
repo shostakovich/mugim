@@ -27,6 +27,7 @@ I also obsess about health, fitness and food and I love Shostakovich.
 * Zipfelmaus ([rocu][7])
 * App.net ([rocu][8])
 * Xing ([Robert Curth][9])
+* Google+ ([Robert Curth][10])
 
 [1]: http://www.gutefrage.net
 [2]: http://www.helpster.de
@@ -37,3 +38,4 @@ I also obsess about health, fitness and food and I love Shostakovich.
 [7]: http://www.zipfelmaus.com
 [8]: https://alpha.app.net/rocu
 [9]: https://www.xing.com/profile/Robert_Curth
+[10]: https://plus.google.com/100361028306639573183
