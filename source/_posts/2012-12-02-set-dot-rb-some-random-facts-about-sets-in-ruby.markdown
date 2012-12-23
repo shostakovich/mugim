@@ -3,7 +3,10 @@ layout: post
 title: "Set.rb - some random facts about sets in Ruby."
 date: 2012-10-13 18:06
 comments: true
-categories: Ruby, Code, Reading
+categories:
+  - ruby
+  - code
+  - read
 ---
 
 I like to read code. Often I take notes and it's a shame that I did never share them. But it's never to late to start.

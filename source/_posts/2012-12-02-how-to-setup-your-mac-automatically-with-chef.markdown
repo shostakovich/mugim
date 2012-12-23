@@ -3,7 +3,9 @@ layout: post
 title: "How to setup your Mac automatically with chef"
 date: 2012-10-01 19:29
 comments: true
-categories: chef, mac 
+categories: 
+  - chef
+  - mac 
 
 ---
 

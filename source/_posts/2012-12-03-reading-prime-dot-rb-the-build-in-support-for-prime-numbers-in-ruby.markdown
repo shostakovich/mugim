@@ -3,7 +3,11 @@ layout: post
 title: "Reading prime.rb - The build in support for prime numbers in Ruby"
 date: 2012-10-20 09:16
 comments: true
-categories: Ruby, Primes, Read, Code
+categories:
+  - ruby
+  - primes
+  - read
+  - code
 ---
 
 In one of our coding katas one of the pairs asked the question how to

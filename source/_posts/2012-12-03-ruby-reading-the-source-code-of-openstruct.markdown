@@ -3,7 +3,10 @@ layout: post
 title: "Ruby: Reading the source code of OpenStruct."
 date: 2012-12-01 08:16
 comments: true
-categories: Ruby, Read
+categories:
+  - ruby
+  - read
+
 ---
 
 ***Ruby version: 1.9.3-p327***

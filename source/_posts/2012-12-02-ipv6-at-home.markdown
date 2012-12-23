@@ -3,7 +3,7 @@ layout: post
 title: "IPv6 at home"
 date: 2012-10-07 18:29
 comments: true
-categories: 
+categories: ipv6 
 ---
 Recently I listened to a fantastic episode of "[Chaosradio Express][1]", that covers IPv6 in great detail. The guest explained how great this is for accessing your home network. I was hooked.
 

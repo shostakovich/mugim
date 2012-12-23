@@ -3,7 +3,9 @@ layout: post
 title: "Lessons from the prime factorization dojo"
 date: 2012-09-29 08:38
 comments: true
-categories: Ruby, Coding Dojo
+categories: 
+  - ruby
+  - coding dojo
 ---
 Last week some of my colleagues at Gutefrage.net and me had our second
 Coding Dojo. I learned a important lessons - even though I prepared the

@@ -3,7 +3,9 @@ layout: post
 title: "Script to disable internet connectivity for Mac OS X"
 date: 2012-09-30 08:49
 comments: true
-categories: Shell, Productivity
+categories:
+  - shell
+  - productivity
 ---
 
 From time to time I really want make it hard for me to seek for distractions.
