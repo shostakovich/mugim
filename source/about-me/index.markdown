@@ -31,7 +31,7 @@ I also obsess about health, fitness and food and I love Shostakovich.
 
 [1]: http://www.gutefrage.net
 [2]: http://www.helpster.de
-[3]: http://pointoo.dei
+[3]: http://pointoo.de
 [4]: https://github.com/shostakovich
 [5]: https://twitter.com/zircde
 [6]: http://www.codeschool.com/users/rocu
