@@ -3,7 +3,11 @@ layout: post
 title: "My tool belt"
 date: 2012-12-23 19:54
 comments: true
-categories: tools,mac,ruby,software
+categories:
+  - tools
+  - mac
+  - ruby
+  - software
 ---
 
 As a web developer you need a bunch of good tools. I know that tools are something very personal, but maybe my choice contains some inspiration for your toolbelt.
