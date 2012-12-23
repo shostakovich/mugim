@@ -193,10 +193,10 @@ My swiss army VCM system. I use it for nearly everything that is related to text
 
 [toolbelt.md on GitHub](https://github.com/shostakovich/Personal-Wiki/blob/master/toolbelt.md)
 
-## Todo-Void
+### Todo-Void
 For my daily small tasks I use Todo-Void. A small task-manager that I created as a toy-project.
 
-![Xenu LinkSl/Users/shostakovich/Desktop/12-12/todo-void.jpeg)
+![Todo-Void](/images/uploads/2012-12/todo-void.jpg)
 
 As a long-term task manager I use Things.
 
