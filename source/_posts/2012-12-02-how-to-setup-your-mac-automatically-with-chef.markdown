@@ -143,6 +143,6 @@ If you need further ideas, have a look at the  [workstation setup of pivotal][3]
 
 I used the recipe a couple of times already. Its kind of boring, to watch chef setting up your dev-machines. But hey - you could drink some coffee in the meanwhile.
 
-[1]: http://http://railscasts.com/episodes/339-chef-solo-basics
+[1]: http://railscasts.com/episodes/339-chef-solo-basics
 [2]: http://woss.name/2011/01/23/converging-your-home-directory-with-chef/
 [3]: https://github.com/pivotal/pivotal_workstation
