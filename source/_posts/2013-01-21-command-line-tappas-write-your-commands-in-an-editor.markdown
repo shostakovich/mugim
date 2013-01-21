@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Command Line Tappas: Write your commands in an editor"
+title: "Command line tappas: Write your commands in an editor"
 date: 2013-01-21 20:44
 comments: true
 categories: 
