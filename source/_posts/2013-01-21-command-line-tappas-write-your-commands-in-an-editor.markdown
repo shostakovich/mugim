@@ -6,6 +6,7 @@ comments: true
 categories: 
   - command line
   - fc
+  - tappas
 ---
 
 I really hate to write long commands in the shell. But luckily there's a command for that.

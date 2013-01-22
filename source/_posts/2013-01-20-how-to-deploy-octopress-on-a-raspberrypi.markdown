@@ -4,9 +4,9 @@ title: "How to deploy Octopress on a Raspberry Pi"
 date: 2013-01-20 16:12
 comments: true
 categories:
-  - Raspberry Pi
-  - Webserver
-  - Command Line
+  - raspberry pi
+  - webserver
+  - command line
 ---
 
 The Raspberry PI is a really inexpensive little computer. It has an ARM
