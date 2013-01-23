@@ -45,6 +45,14 @@ module Jekyll
       end
     end
   end
+
+  class CDNImageTag < ImageTag
+    def initialize(tag_name, markup, tokens)
+      super
+      @img['src'] = 'http://d3f0z46dxzv3cv.cloudfront.net' + @img['src']
+    end
+  end
 end
 
-Liquid::Template.register_tag('img', Jekyll::ImageTag)
+
+Liquid::Template.register_tag('img', Jekyll::CDNImageTag)
