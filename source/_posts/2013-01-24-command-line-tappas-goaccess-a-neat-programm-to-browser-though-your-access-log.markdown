@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Command Line Tappas: GoAccess - a neat programm to browse though your access log"
+title: "Command Line Tappas: GoAccess - a neat programm to browse through your access log"
 date: 2013-01-24 19:14
 comments: true
 categories: 
@@ -33,7 +33,7 @@ You can also use goaccess also to use html reports that look like this:
 
 I really use this little gem pretty regullary, especially for my blogs.
 
-To give it a shot use the packetmanager of your choice or [compile it from source][2].
+To give it a shot use the packet manager of your choice or [compile it from source][2].
 
 [1]: http://goaccess.prosoftcorp.com/
 [2]: http://goaccess.prosoftcorp.com/download
