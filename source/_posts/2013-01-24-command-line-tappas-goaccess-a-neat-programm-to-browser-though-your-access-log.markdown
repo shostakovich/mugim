@@ -12,7 +12,7 @@ categories:
 
 Today I want to tell you about [GoAccess][1], a brilliant log file analyzer:
 
-> [GoAccess](1) is an open source real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems. It provides fast and valuable HTTP statistics for system administrators that require a visual server report on the fly.
+> [GoAccess][1] is an open source real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems. It provides fast and valuable HTTP statistics for system administrators that require a visual server report on the fly.
 
 
 You use goaccess like this:
