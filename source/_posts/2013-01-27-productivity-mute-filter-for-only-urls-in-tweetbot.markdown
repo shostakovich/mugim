@@ -17,8 +17,11 @@ new links for me.
 
 So I decided to filter out all Tweets without URL's.
 
-The regex required came from [stackoverflow][1]
-    
+I remembered that it was possible using negative lookahead - but frankly
+I never used it. I found the answer on [stackoverflow][1].
+
+Just add the following filter and you are set: 
+ 
     ^((?!http).)*$
 
 Feels much better - and I can follow more great people ;)
