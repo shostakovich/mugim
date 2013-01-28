@@ -3,14 +3,14 @@ layout: post
 title: "Book review: Linchpin: Are You Indispensable?"
 date: 2013-01-28 19:03
 comments: true
+description: "I just finished reading Linchpin - Are You Indispensable? from Seth Godin. Here is my review."
 categories: 
   - books
   - review
   - motivation
 ---
 
-<a href="http://www.amazon.de/gp/product/1591844096/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=1638&creative=6742&creativeASIN=1591844096&linkCode=as2&tag=distributrocu-21"><img class="left"
-src="http://ecx.images-amazon.com/images/I/51KEubrpFkL.jpg" \></a>
+{% img left /images/uploads/2013-01/linchpin.jpg Cover of Linchpin %}
 
 I just finished reading "[Linchpin: Are You Indispensable?][1]" from Seth Godin. The book really strikes a chord with me. Essentially it tells you why its a good idea to not only do your "job". Why you should care to be an artist and why you should engage much more. It suggests that you have much more to offer, then just being a cooperate drone.
 
@@ -23,4 +23,4 @@ I enjoyed reading the book, because I had to stop and think about what I can con
 
 Highly recommended.
 
-[1]: http://www.amazon.de/gp/product/1591844096/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=1638&creative=6742&creativeASIN=1591844096&linkCode=as2&tag=distributrocu-21
+[1]: http://www.amazon.de/gp/product/1591844096/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=1638&amp;creative=6742&amp;creativeASIN=1591844096&amp;linkCode=as2&amp;tag=distributrocu-21
