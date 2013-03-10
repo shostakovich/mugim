@@ -49,7 +49,7 @@ module Jekyll
   class CDNImageTag < ImageTag
     def initialize(tag_name, markup, tokens)
       super
-      @img['src'] = 'http://d3f0z46dxzv3cv.cloudfront.net' + @img['src']
+      @img['src'] = 'http://d3htht80dzmrok.cloudfront.net' + @img['src']
     end
   end
 end
