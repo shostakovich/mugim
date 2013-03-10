@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book review: Linchpin: Are You Indispensable?"
+title: "Book review: Linchpin - Are You Indispensable?"
 date: 2013-01-28 19:03
 comments: true
 description: "I just finished reading Linchpin - Are You Indispensable? from Seth Godin. Here is my review."
