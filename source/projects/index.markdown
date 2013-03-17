@@ -11,6 +11,15 @@ footer: true
 Here are some of the project that I worked on. There are a few more -
 especially side projects.. But most of them are not worth mentioning ;) 
 
+## Git-Shots
+
+{% img /images/uploads/2013-03/git.mug.im.jpg %}
+
+[GitShots](http://git.mug.im) is a very simple project. I take a foto of
+me, every time I commit something into GIT. 
+
+I publish the fotos to a website. Why? I have no idea!
+
 ### Helpster.de + Pointoo.de
 
 Currently I work on helpster.de and pointoo.de. 
