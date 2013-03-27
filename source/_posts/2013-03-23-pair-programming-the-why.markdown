@@ -20,7 +20,7 @@ For most programmers this is completely unfamiliar in the beginning. It's not ve
 
 ### Zero friction reviews
 
-Do you do Code Reviews? We at Helpster have the 4-Eyes-Rule: Every peace of code has to be verified by a second pair of eyes.
+Do you do Code Reviews? We at Helpster have the 4-Eyes-Rule: Every piece of code has to be verified by a second pair of eyes.
 
 Pair Programming of course offer just that. You have constant review of your code. And even better: You can directly incorporate it into your code.
 
