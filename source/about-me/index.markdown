@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About me"
+title: "About me (Robert Curth)"
 comments: false
 sharing: false
 footer: true
