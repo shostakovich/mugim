@@ -1,4 +1,4 @@
----
+>---
 layout: page
 title: "Stuff I worked on"
 comments: false
@@ -10,6 +10,19 @@ footer: true
 
 Here are some of the project that I worked on. There are a few more -
 especially side projects.. But most of them are not worth mentioning ;) 
+
+## OpenHack
+
+{% img /images/uploads/2013-03/openhack.jpg %}
+
+> OpenHack is a meetup with a simple purpose: Code together, on anything.
+
+> OpenHack works by hosting a meetup in your city that gets programmers of
+any experience level together to code.
+
+
+I am quite excited about this idea. So that's why I decided to organize
+an [Openhack in Munich](http://www.meetup.com/OpenHack-Munich).
 
 ## Git-Shots
 
