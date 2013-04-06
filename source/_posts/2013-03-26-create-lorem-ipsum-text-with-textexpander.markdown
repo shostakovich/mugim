@@ -13,15 +13,18 @@ categories:
   - productivity
 ---
 
-Sometimes I just need some text to fill out a form. I use a nice way to automate this. In this post I describe how I did it.
+Often I need dummy text to fill out a form. 
+
+I use a combination of TextExpander and the Lorem Gem that makes this
+super simple.
 
 ## Step 1: Install the "lorem" gem
 
-You can install the gem **[lorem][1]** using
+Install the gem **[lorem][1]** using
 
     sudo gem install lorem
 
-It's really simple to use:
+It's simple to use:
 
     # For 1 paragraph dummy text
     lorem 1 paragraph
@@ -29,7 +32,7 @@ It's really simple to use:
     # For 140 chars dummy text
     lorem 140 chars
 
-Lorem is a real Unix tool - you can combine it with other commands:
+Lorem is a Unix tool - you can combine it with other commands:
 
     lorem 140 chars | pbcopy
 
@@ -37,16 +40,16 @@ Copies 140 chars into your clipboard.
 
 ## Textexpander + Lorem
 
-Since I do not want to go into my Terminal if I want to fill out a
-form in Chrome I created a [TextExpander][2] snippet, that calls lorem
-for me and fills the dummy text in, wherever I am.
+I dont want to go into my Terminal, whenever I fill out a
+form in Chrome, so I created a [TextExpander][2] snippet, that executes lorem
+for me and fills in the dummy text.
 
 {% img /images/uploads/2013-03/lorem_and_textexpander.jpg  "The Lorem gem and TextExpander - a dream team" %}
 
     #!/bin/bash
     lorem %filltext:name=paragraphs:default=1%
 
-It also asks you how many paragraphs of dummy text you want.
+A nice additional feature is that it asks you how many paragraphs of dummy text you want.
 
 ## Conclusion
 
