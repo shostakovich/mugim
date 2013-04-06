@@ -7,18 +7,19 @@ categories:
   - ruby
   - coding dojo
 ---
-Last week some of my colleagues at Gutefrage.net and me had our second
-Coding Dojo. I learned a important lessons - even though I prepared the
-Dojo and thought I mastered the kata.
+Last week my colleagues at Gutefrage.net and I had our second
+Coding Dojo. 
+
+I learned a important lessons - even though this wasn't the first time I practiced the kata.
 
 ## The kata
 
 The task was to create a class that decomposes natural numbers into its
 [prime factors][1].
 
-Additionally the class was supposed to sort the factors ascending.
+Additionally the factors should be sorted ascending.
 
-A few examples:
+Examples:
 
     1  => [] # Since 1 is no prime ;)
     5  => [5]
@@ -27,14 +28,14 @@ A few examples:
     
 You get the idea ;)
 
-This sounds relatively simple - and like a perfect candidate for a
+This sounds simple and like a perfect candidate for an
 introduction to TDD right?
 
-It looks so - but this kata is a bit tricky.
+Unfortunately this kata is a bit tricky.
 
 ## Performing the kata
 
-The first few tests are straightforward:
+The first tests are straightforward:
 
 {% codeblock prime_factor_decomposer.rb %}
 module PrimeFactorDecomposer 
@@ -86,32 +87,23 @@ otherwise we would just move sidewards and add conditionals.
 You do not know how to solve the problem. Not everything is as simple as
 the [FizzBuzz][2] Kata.
 
-Adding another test alone does not suffice. Its a common hurdle for
+Adding another test alone does not suffice. It's a common hurdle for
 newcomers to TDD. 
 
 ## How to solve this?
 
-Of course the solution might be to think about the algorithm. Maybe on a
-sheet of paper. Or do a little spike until you fully understand the
-problem.
-
-Then come back and continue. Sometimes its just not true, that a design
-"magically" emerges.
+Grab a sheet of paper and think about the algorithm. Or do a little spike until you fully understand the
+problem. Sometimes it's just not true, that a design "magically" emerges.
 
 ## Learnings
 
-You need a sound knowledge about where to go - otherwise you will have
-problems with TDD along the way. Then you have to lean back and think. 
+You need a sound knowledge about where to go - otherwise you will have problems with TDD along the way. Then you have to lean back and think a little bit or get feedback from something else then your tests.
 
-TDD is cool, but it can not solve every problem. Especially not
-complicated algorithms (and this is a really easy one of course).
+TDD is cool, but it can not solve every problem. Especially not complicated algorithms (this is a really easy one of course).
 
-Another personal learning for me was to watch myself better, when I do a
-kata the first time.
+Another personal learning for me was to watch myself better, when I do a kata the first time.
 
-When the design does not emerge from the tests - I should listen to
-them. Maybe they want to tell me that I have absolutely no idea what I
-am doing and that I need to think ;) 
+When the design does not emerge from the tests - I should listen to them. Maybe they want to tell me that I have absolutely no idea what I am doing and that I need to think more..
 
 [1]: http://en.wikipedia.org/wiki/Prime_factor
 [2]: http://www.codingdojo.org/cgi-bin/wiki.pl?KataFizzBuzz
