@@ -4,7 +4,7 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "192.168.178.33"
+ssh_user       = "foo.mug.im"
 ssh_port       = "22"
 document_root  = "/var/www/vhosts/mug.im/"
 rsync_delete   = false
