@@ -68,5 +68,5 @@ Interested? Have a look [at my dotfiles][5].
 [1]: http://www.flickr.com/photos/billward/3393266991/
 [2]: http://www.mug.im/blog/2012/10/01/how-to-setup-your-mac-automatically-with-chef/
 [3]: https://github.com/technicalpickles/homesick
-[4]: http://dotfiles.github.com/
+[4]: http://dotfiles.github.io/
 [5]: https://github.com/shostakovich/dotfiles

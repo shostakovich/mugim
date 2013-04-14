@@ -38,6 +38,6 @@ I also obsess about health, fitness and food and I love Shostakovich.
 [6]: http://www.codeschool.com/users/rocu
 [7]: http://www.zipfelmaus.com
 [8]: https://alpha.app.net/rocu
-[9]: https://www.xing.com/profile/Robert_Curth
+[9]: http://www.xing.com/profile/Robert_Curth
 [10]: https://plus.google.com/100361028306639573183
-[11]: https://vimeo.com/user2044831
+[11]: http://vimeo.com/user2044831

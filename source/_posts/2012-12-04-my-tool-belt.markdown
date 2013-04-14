@@ -195,7 +195,7 @@ To jump back in:
 
 My swiss army VCM system. I use it for nearly everything that is related to text. For example also to write blog-articles: 
 
-[toolbelt.md on GitHub](https://github.com/shostakovich/Personal-Wiki/blob/master/toolbelt.md)
+[toolbelt.md on GitHub](https://raw.github.com/shostakovich/mugim/master/source/_posts/2012-12-04-my-tool-belt.markdown)
 
 ### Todo-Void
 For my daily small tasks I use Todo-Void. A small task-manager that I created as a toy-project.
@@ -207,12 +207,12 @@ As a long-term task manager I use Things.
 ## Links
 
 ### Mac OS X
-* [1Password](http://agilebits.com/onepassword)
+* [1Password](https://agilebits.com/onepassword)
 * [Arq](http://www.haystacksoftware.com/arq/)
 * [Alfred](http://www.alfredapp.com/)
 * [Bartender](http://www.macbartender.com/)
-* [BetterSnapTool](http://itunes.apple.com/en/app/bettersnaptool/id417375580?mt=12)
-* [Chrome](http://www.google.de/chrome/)
+* [BetterSnapTool](https://itunes.apple.com/en/app/bettersnaptool/id417375580?mt=12)
+* [Chrome](https://www.google.com/intl/de/chrome/browser/)
 * [iTerm 2](http://www.iterm2.com)
 * [OmniOutliner](http://www.omnigroup.com/products/omnioutliner/)
 * [MacVim](http://code.google.com/p/macvim/)
@@ -221,14 +221,14 @@ As a long-term task manager I use Things.
 * [Reggy](http://reggyapp.com/)
 * [Sparrow](http://sparrowmailapp.com/)
 * [Soulver](http://www.acqualia.com/soulver/)
-* [TextExpander](http://smilesoftware.com/TextExpander/)
+* [TextExpander](http://smilesoftware.com/TextExpander/index.html)
 * [Transmit](http://panic.com/transmit/)
 * [Things](http://culturedcode.com/things/)
 * [SequelPro](http://www.sequelpro.com/)
 * [Xenu Link Sleuth](http://home.snafu.de/tilman/xenulink.html)
 
 ### Terminal 
-* [Homebrew](http://mxcl.github.com/homebrew/)
+* [Homebrew](http://mxcl.github.io/homebrew/)
 * [Bashmarks](https://github.com/huyng/bashmarks)
 * [Git](http://git-scm.com/)
 * [Todo-Void](https://github.com/shostakovich/Todo-Void)

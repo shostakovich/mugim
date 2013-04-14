@@ -54,7 +54,7 @@ Last but not least bootsrap.sh installs Chef itself.
 
 I have my standard set of tools. Instead of installing them manually I wanted to use Chef.
 
-Luckily there are already cookbooks that can install [dmg's](https://github.com/opscode/cookbooks/tree/master/dmg) and apps within [zip files](https://github.com/fnichol/chef-zip_app).
+Luckily there are already cookbooks that can install [dmg's](https://github.com/opscode-cookbooks/dmg) and apps within [zip files](https://github.com/fnichol/chef-zip_app).
 
 You just have to download them and then you can specify which apps to
 install:
