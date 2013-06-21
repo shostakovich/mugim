@@ -12,14 +12,12 @@ categories:
   - software
 ---
 
-As a good programmer you try to get as much feedback as possible. Be it automated unit tests, code reviews or metrics. For me bugs and failures fall under the same category, if they do not repeat over and over again.
+As a good programmer you try to get as much feedback as possible. You use automated unit tests, code reviews and metrics. For me bugs and failures fall into the same category.
 
 {% img  /images/uploads/2013-06/failure.jpg %}
 "Olivier Le Moal/Shutterstock.com"
 
-In an agile environment you will have a lot of opportunities to make errors, and the impact of these errors is relatively small.
-
-By embracing errors and working on avoiding them in the future, you can create a very resilient environment.
+By embracing errors and working hard on avoiding them in the future, you can create a very resilient environment.
 
 In this article I want to explain how you can get the most out of your errors.
 
@@ -28,7 +26,7 @@ In this article I want to explain how you can get the most out of your errors.
 Let's start with some properties, of a great error.
 
 * You notice it as soon as possible
-* You minimize the impact
+* You can minimize the impact
 * You find out what exactly is wrong
 * You learn from it and find a way to avoid it in the future
 * You incorporate your learning into your routine
@@ -43,9 +41,11 @@ That's one reason, why you want good metrics of your applications. You could als
 
 Whenever you notice that a problem went unnoticed for a really long time, this can indicate, that you could improve on that front.
 
+For example I have often seen programs that gulp all exceptions and do nothing with them. Oftentimes it is better to be notified and act on an individual basis, then just ignore the fact that something can go wrong.
+
 ## Keeping the impact of errors minimal
 
-If you discover a problem - don't panic. Take a few deep breaths. Maybe even leave your desk for a minute. Get calm. Grab a coffee.
+After you have discovered a problem - don't panic. Take a few deep breaths. Maybe even leave your desk for a minute. Get calm. Grab a coffee.
 
 Then get help. Tell your colleagues about the problem. Either one of them  already exactly knows what is happening or they are a great help at finding the problem.
  
@@ -59,6 +59,8 @@ I trust colleagues, who admit errors and accept help - and so should you. They c
 
 If you have the possibility to buy time - like rolling back to the last release or toggle a feature switch, you should do this first. The less stress you feel the faster you usually find the problem and the better is the quality of your fix.
 
+Additionally you avoid stupid mistakes if you are really relaxed. Often the situation is caotic and you need to maintain a relaxed oversight as long as you can.
+
 ## You can find out why the error happened
 
 If the cause isn't obvious you have to look for it. There are tons of ressources about troubleshooting out there.
@@ -68,15 +70,17 @@ Some good ones include:
 * [Debug it! from PragProg][1]
 * [Troubleshooting, The Developer's #1 Skill][2]
 
-Do not stop to early. Really try to find what happens. Even if the error is not that important it is worth to understand what happens.
+Do not stop to early. Really try to find what happens. Even if the error is not that important or disappeared after a few hours - it is worth to understand what happened.
 
-For example once we noticed unusally high IO after a Rails update. It was not obvious that this was an error. We looked into the issue and found that Rack was caching all our pages on disk. This could have brought down our whole site during a traffic spike. This is also a nice example for a bug that is really hard to catch in advance.
+For example once we noticed unusally high IO after a Rails update. It was not obvious that this was an error.  We didn't understand what happened and the system worked ok enough - but still something changed and we didn't get why.
+
+We looked into the issue and found that Rack was caching all our pages on disk. It was worth looking into it. This could have brought down our whole site during a traffic spike.
 
 ## Not every problem is worth fixing
 
 Not every problem is even worth fixing. But in order to do this assessment ,you need to understand what is going on.
 
-Sometimes a seemingly simple errors, upon further investigation, turns out to be much bigger than anticipated.
+Sometimes a seemingly simple errors, upon further investigation, turn out to be much bigger than anticipated.
 
 ## There is something to learn and you learn it
 
