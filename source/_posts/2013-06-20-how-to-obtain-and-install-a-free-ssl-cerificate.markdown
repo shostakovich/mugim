@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to secure your Apache2 webserver with SSL for free
+title: How to secure your Apache2 webserver with a free SSL certificate
 date: 2013-06-20 19:02
 comments: true
 categories:
