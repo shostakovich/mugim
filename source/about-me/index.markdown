@@ -29,6 +29,7 @@ I also obsess about health, fitness and food and I love Shostakovich.
 * Xing ([Robert Curth][9])
 * Google+ ([Robert Curth][10])
 * Vimeo ([Robert Curth][11])
+* Lift ([Robert Curth][12])
 
 [1]: http://www.gutefrage.net
 [2]: http://www.helpster.de
@@ -41,3 +42,4 @@ I also obsess about health, fitness and food and I love Shostakovich.
 [9]: http://www.xing.com/profile/Robert_Curth
 [10]: https://plus.google.com/100361028306639573183
 [11]: http://vimeo.com/user2044831
+[12]: http://lift.do/users/cbafd621538e209c5b95
