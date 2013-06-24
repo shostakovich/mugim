@@ -38,7 +38,7 @@ If you have [Alfred][6] installed you should also configure it, so that it recog
 
     brew cask alfred link
     
-## Using hombrew-cask
+## Using homebrew-cask
 
 Using homebrew-cask is simple. You install apps using the __brew cask install__ command.  Evernote for example, you would install like this:
 
@@ -97,7 +97,7 @@ class Soulver < Cask
 end
 ```
 
-You just have to fill in the download url of the app, the apps name, the version, the sha1 checksum of the download and it's homepage.
+You just have to fill in the download URL of the app, the apps name, the version, the sha1 checksum of the download and it's homepage.
 
 ``` 
 class Soulver < Cask
