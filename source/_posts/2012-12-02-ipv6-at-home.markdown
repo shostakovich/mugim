@@ -5,9 +5,9 @@ date: 2012-10-07 18:29
 comments: true
 categories: ipv6 
 ---
-Recently I listened to a fantastic episode of "[Chaosradio Express][1]", that covers IPv6 in great detail. The guest explained how great this is for accessing your home network. I was hooked.
+Recently I listened to a fantastic episode of "[Chaosradio Express][1]", that covers IPv6 in great detail. The guest explained how great this is for accessing your home network.
 
-So I decided to set up a free account for IPv6 through IPv4 tunneling at SixXs. 
+That's when I decided to set up a free account for IPv6 through IPv4 tunneling at SixXs. 
 
 
 ## The Result
@@ -26,9 +26,9 @@ Its relatively simple. Here are the steps I had to do until it worked.
 
  * sign up on [this][2] page.
  * confirm your email-address
- * wait for your account to be activated
+ * wait until SIxXs activates your account
  * [Request a tunnel][3] (AYIYA variant)
- * wait for the tunnel to be activated
+ * wait unitl SixXS activates the tunnel
  * download the [tunnel driver for Mac OS X][4]
  * alt-klick on the pkg and install it
  * brew install aiccu

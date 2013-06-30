@@ -7,15 +7,15 @@ footer: true
 ---
 {% img left /images/uploads/me_with_a_head.jpg 400 400 %}
 
-My name is Robert Curth. I am 28 years old and live in Munich (Germany).
+My name is Robert Curth. I am 29 years old and live in Munich (Germany).
 
-I am a programmer at [Gutefrage.net][1].
+I work at [Gutefrage.net][1] &mdash; on [helpster.de][2] and [pointoo.de][3].
 
-Currently I help maintaining our plattforms [helpster.de][2] and [pointoo.de][3].
+I boost our company culture by organizing events and bringing people together.
 
-After work I programm, try to learn english, french, play the guitar, walk around the nearby lake, eat steaks, drink a good mug full of coffee, or read a good book.
+After work I programm, try to learn english, french, play the guitar, walk around the nearby lake, eat steaks, drink a good mug full of coffee, read book, meditated and play.
 
-I also obsess about health, fitness and food and I love Shostakovich.
+When I find enough time I post my thoughts on this blog.
 
 ## Places you can find me
 

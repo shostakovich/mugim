@@ -119,7 +119,7 @@ Hm… Wow there is some stuff I have never seen before. Lets try to read it line
 
 ***mid.id2name*** converts the method's id (which is a symbol). Into a string.
 
-If the method name has a ***=*** and only one argument was used, then a new entry in the table is created using ***new_ostruct_member*** after that the value if assigned.
+If the method name has a ***=*** and only argument ***new_ostruct_member*** creates a new entry in the table. Afterwards the value if assigned.
 
 The elseif block handles reads on attributes that were not defined. Getter method have no arguments of course.
 
@@ -128,7 +128,7 @@ The elseif block handles reads on attributes that were not defined. Getter metho
 	foo.something_random
 	# nil
 
-It looks the ***mid*** up in the ***@table***. I have no idea why it does not return nil in the first place here. The effect is the same, because ach time we add a new attributes ***new_ostruct_member*** creates dynamic methods. So if the attribute is defined, we do not end up in method missing.
+It looks the ***mid*** up in the ***@table***. I have no idea why it does not return nil in the first place here. The effect is the same, because ach time we add a new attributes ***new_ostruct_member*** creates dynamic methods. So if the attribute is already defined, we do not end up in method missing.
 
 For all other functions except:
 * These that have an "=" and one argument
@@ -152,7 +152,7 @@ I had quite a hard time of figuring out what the following function was doing. I
   end
 {% endcodeblock %}
 
-It turns out ***initialize_copy*** is used, whenever .clone or .dup are called, to duplicate the object. To get the whole picture read this [great article about initialize_dup, initialize_clone and initialize_copy](http://jonathanleighton.com/articles/2011/initialize_clone-initialize_dup-and-initialize_copy-in-ruby/)!
+Ruby uses ***initialize_copy*** whenever you .clone or .dup an object. To get the whole picture read this [great article about initialize_dup, initialize_clone and initialize_copy](http://jonathanleighton.com/articles/2011/initialize_clone-initialize_dup-and-initialize_copy-in-ruby/)!
 
 ## Inspect
 
@@ -183,7 +183,7 @@ end
 alias :to_s :inspect
 {% endcodeblock %}
 
-Ok. The last part of this is straightforward. Every attribute is printed in like ***lenght=21***. All attributes are separated by a space and a comma. The attribute info is appended to the class name.
+The last part of this is straightforward. The method prints all attributes like ***lenght=21***. It separates them by a space and a comma and appends the attribute info to the class name.
 
 	#<OpenStruct name="Brussel Sprouts">
 	
@@ -259,8 +259,8 @@ It was fun reading this class. I did't like the ***modifiable*** method. It's no
 
 * There's a method called .id2name
 * Some random stuff about Threads
-* Serialization is called marshalling in Ruby
-* A weired way to determine if a object is frozen
+* Rubyists call serialization marshalling
+* A weired way to detect a frozen object
 * Ways to hook into the dup and clone methods
 
 Go read some code as well! Its a highly educating activity.
