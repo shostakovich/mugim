@@ -9,13 +9,13 @@ categories:
   - command line
 ---
 
-I try to wrap my head around the [VIM][1] editor for quite a while now. Unfortunately I do not have enough discipline to use h-j-k-l for my movement keys unfortunately. Fortunately there is a solution that will teach me..
+I try to wrap my head around the [VIM][1] editor since a few months. Unfortunately I do not have enough discipline to use h-j-k-l as my movement keys. But there is a solution that will teach me..
 
 
 {% img /images/uploads/2013-07/arrow-keys.jpg %}
 Image Source: Flickr / [Colin Harris][3] [(CC BY-NC-ND 2.0)][4]
 
-It was hidden deep inside the .vimrc of my colleague Fabian.
+I found it deep inside the .vimrc of my colleague Fabian.
 
 ```
 nnoremap <up>    <nop>
@@ -28,7 +28,7 @@ inoremap <left>  <nop>
 inoremap <right> <nop>
 ```
 
-This does just turn off the arrow keys. Really obvious way of doing it (in hindsight).
+This turns off the arrow keys. A really obvious way of doing it ;)
 
 I will add this to my [.vimrc][2] right away!
 
