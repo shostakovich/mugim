@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to get rid of bad habits with technology"
+title: "Fighting bad habits with technology"
 date: 2013-07-20 19:19
 comments: true
 categories:
