@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Command line tappas: Write your commands in an editor"
+title: "Command line tapas: Write your commands in an editor"
 date: 2013-01-21 20:44
 comments: true
 categories: 
   - command line
   - fc
-  - tappas
+  - tapas
 ---
 
 I really hate to write long commands in the shell. But luckily there's a command for that.

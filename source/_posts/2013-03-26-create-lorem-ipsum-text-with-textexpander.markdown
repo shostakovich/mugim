@@ -4,7 +4,7 @@ title: "Create lorem ipsum text with TextExpander and lorem"
 date: 2013-03-26 18:44
 comments: true
 categories:
-  - tappas
+  - tapas
   - command line
   - gem
   - tools

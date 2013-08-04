@@ -13,13 +13,13 @@ it of.
 
 * If you don't have the game - [go buy it][1]
 * Open [WineBottler][2]
-* Create customn prefix
+* Create custom prefix
 * Select the .exe file and check one of the DirectX dll's
 
 {% img /images/uploads/2013-02/wine_bottler.jpg "Wine Bottler" %}
 
 * Install it
-* Now right click on the programm WineBottler created
+* Now right click on the program WineBottler created
 * Open the package
 * Copy the Settlers II folder from Contents/Resources/drive_c/COG
 GAMES/ into another Folder

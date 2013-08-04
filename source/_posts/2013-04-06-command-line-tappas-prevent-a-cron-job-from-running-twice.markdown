@@ -5,7 +5,7 @@ date: 2013-04-06 17:42
 comments: true
 categories:
   - command line
-  - tappas
+  - tapas
 ---
 
 Sometimes a cron job might run slower, than you anticipated and many instances of it stack up.

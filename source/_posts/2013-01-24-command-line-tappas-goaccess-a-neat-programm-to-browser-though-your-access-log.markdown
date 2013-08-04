@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Command Line Tappas: GoAccess - a neat programm to browse through your access log"
+title: "Command Line Tapas: GoAccess - a neat programm to browse through your access log"
 date: 2013-01-24 19:14
 comments: true
 categories: 
   - access log
   - command line
-  - tappas
+  - tapas
   - goaccess
 ---
 

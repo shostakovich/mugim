@@ -8,7 +8,7 @@ categories:
   - dotfiles
   - homesick
   - gem
-  - tappas
+  - tapas
 ---
 
 {% img /images/uploads/2013-01/castle.jpg 890 668 %}

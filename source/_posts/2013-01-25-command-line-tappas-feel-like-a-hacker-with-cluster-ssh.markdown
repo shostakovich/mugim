@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Command line tappas: Feel like a hacker with cluster ssh"
+title: "Command line tapas: Feel like a hacker with cluster ssh"
 date: 2013-01-25 18:37
 comments: true
 categories:
   - pair programming
-  - tappas
+  - tapas
   - command line
   - cluster ssh
   - ssh

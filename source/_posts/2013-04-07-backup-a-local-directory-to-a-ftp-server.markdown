@@ -5,7 +5,7 @@ date: 2013-04-07 08:28
 comments: true
 categories:
   - command line
-  - tappas
+  - tapas
   - ftp
   - tools
   - software

@@ -15,7 +15,7 @@ I am pretty reckless sometimes. I forced pushed to master several days in a row.
 What does a real programmer do? - He writes a script that prevents him from doing it ever again, of course..
 
 For the longest time this was a [little complicated][3] - you had to
-install a hook onto the remote repro. For Git >1.8.2, theres a pre-push hook that was just perfect for my script.
+install a hook onto the remote repro. For Git >1.8.2, there's a pre-push hook that was just perfect for my script.
 
 If the hook returns an error the push is not executed.
 

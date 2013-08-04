@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Command line tappas: Use Pipe Viewer to count new lines per second"
+title: "Command line tapas: Use Pipe Viewer to count new lines per second"
 date: 2013-01-23 18:14
 comments: true
 categories: 
   - command line
-  - tappas
+  - tapas
   - pipe viewer
 ---
 

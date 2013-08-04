@@ -13,15 +13,15 @@ categories:
   - mac
 ---
 
-Recently I joined a team that practices DevOps. Thats why I had to learn Chef:
+Recently I joined a team that practices DevOps. That's why I had to learn Chef:
 
 > With Chef, you write abstract definitions as source code to describe how you want each part of your infrastructure to be built, and then apply those descriptions to individual servers.
 
 Since I regard my iMac as part of my infrastructure - I decided to give Chef a shot. In this post I explain how I did it.
 
-## Bootsraping chef
+## Bootstrapping chef
 
-Before Chef can even run the machine has to be prepared.
+Before the first Chef run, you have to prepare youre machine. 
 
 I store my cookbooks on Dropbox. So after installing the OS (manually), I download and install Dropbox.
 
@@ -46,9 +46,9 @@ sudo mkdir /usr/local
 sudo chown -R $USERNAME /usr/local
 {% endcodeblock %}
 
-This installs a compiler, homebrew and some dev-tools like GIT on the machine.
+This installs a compiler, Homebrew and some dev-tools like GIT on the machine.
 
-Last but not least bootsrap.sh installs Chef itself.
+Last but not least bootstrap.sh installs Chef itself.
 
 ## Installing apps & packages
 
@@ -76,7 +76,7 @@ dmg_package "Virtualbox" do
 end
 {% endcodeblock %}
 
-For all my Unix tools I use the [homebrew cookbook](https://github.com/mathie/chef-homebrew).
+For all my Unix tools I use the [Homebrew cookbook](https://github.com/mathie/chef-homebrew).
 
 This way I can specify all the packages I need in my node.json - the configuration file I use to run chef-solo.
 
@@ -135,7 +135,7 @@ end
 
 I highly recommend giving it a shot! It's a good way to learn chef. 
 
-For a kickstart with chef-solo, watch [RailsCast 339][1].
+For a kick start with chef-solo, watch [RailsCast 339][1].
 
 If you have problems setting up chef-solo on a Mac, have a look at [how to fix solo.rb][2].
 
