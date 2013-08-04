@@ -9,7 +9,33 @@ footer: true
 ## Active Projects
 
 Here are some of the project that I worked on. There are a few more -
-especially side projects.. But most of them are not worth mentioning ;) 
+especially side projects. 
+
+## Me
+
+My most important project is me. This might sound weired — but I recognize where I have to improve to leave a mark and I do it.
+
+I do believe that before you try to change others, you have to start with yourself. You have to make your dreams come true — it's not the responsibility of your boss or your organisation.
+
+If you are interested in what I mean, just browse this blog ;)
+
+## Helping the homebrew-cask project
+
+{% img /images/uploads/2013-06/casks.jpg %}
+
+_Image Source: [Flickr/megoizzy](http://www.flickr.com/photos/megoizzy/) (CC BY-SA 2.0)_
+
+I love homebrew cask. It solves a problem that I had for years - it installs Mac Apps from the command line.
+
+I contribute casks and try to improve the auditing of casks. My contributions are really small — but still: I hope I make it a better tool.
+
+## Gutefrage IT Drinkup
+
+{% img /images/uploads/2013-07/it-drinkup.jpg %}
+
+I organise our [IT drinkups at Gutefrage](http://www.meetup.com/Gutefrage-IT-Drinkup/). I invite amazing talkers, order food and listen to our amazing external guests.
+
+I get a buzz from the atmosphere. If you want meet me on the next one ;)
 
 ## OpenHack
 
