@@ -31,6 +31,6 @@ We could use ScreenHero or SSH && VIM && Tmux. You can have a look at how this w
 Just use the comment form below, write me an [email][2] or ask me via [Twitter][4].
 
 [1]: https://mug.im/projects
-[2]: robert@rocu.de
+[2]: mailto:robert@rocu.de
 [3]: http://www.pairprogramwith.me/
 [4]: https://twitter.com/zircde
