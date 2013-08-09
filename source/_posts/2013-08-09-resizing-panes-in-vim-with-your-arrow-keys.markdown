@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Resizing panes in VIM with your arrow-keys"
+title: "Resize panes in VIM with your arrow-keys"
 date: 2013-08-09 19:19
 comments: true
 categories:
