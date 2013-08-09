@@ -5,7 +5,8 @@ date: 2013-01-19 15:08
 comments: true
 categories:
   - vim
-  - command line 
+  - command line
+  - dotfiles
 ---
 
 I was pretty anoyed how slow I feel in the terminal. Not any more:

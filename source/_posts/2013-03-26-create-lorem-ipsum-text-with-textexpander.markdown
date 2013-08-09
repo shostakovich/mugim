@@ -7,7 +7,7 @@ categories:
   - tapas
   - command line
   - gem
-  - tools
+  - tool-chain
   - mac
   - software
   - productivity

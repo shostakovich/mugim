@@ -7,6 +7,7 @@ categories:
   - command line
   - tapas
   - tool-chain
+  - dotfiles
 ---
 
 I have an awesomeness tool-chain — command line tools, that increase my productivity dramatically. In this blog post I want to introduce you to these powerful tools.

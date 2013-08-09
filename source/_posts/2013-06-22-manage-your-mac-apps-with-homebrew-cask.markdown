@@ -9,6 +9,7 @@ categories:
   - mac os x
   - command line
   - devops
+  - dotfiles
 ---
 
 A while ago I became interested in automating the setup of my Macs. [I started my journey with chef-solo][2], however this wasn't really practical for me, so I [switched to homesick][3] to manage my dotfiles.

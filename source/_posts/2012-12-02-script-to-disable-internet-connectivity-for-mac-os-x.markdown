@@ -6,6 +6,7 @@ comments: true
 categories:
   - shell
   - productivity
+  - dotfiles
 ---
 
 From time to time I really want make it hard for me to seek for distractions.

@@ -4,7 +4,7 @@ title: "My tool belt"
 date: 2012-12-23 19:54
 comments: true
 categories:
-  - tools
+  - tool-chain
   - mac
   - ruby
   - software
