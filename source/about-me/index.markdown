@@ -5,17 +5,39 @@ comments: false
 sharing: false
 footer: true
 ---
-{% img left /images/uploads/me_with_a_head.jpg 400 400 %}
+{% img left /images/uploads/2013-08/drinkup.jpg %}
 
-My name is Robert Curth. I am 29 years old and live in Munich (Germany).
+Hi. My name is Robert Curth. I am 29 years old and live in Munich (Germany).
 
-I work at [Gutefrage.net][1] &mdash; on [helpster.de][2] and [pointoo.de][3].
+## Programmer
+
+I am a programmer at Gutefrage.net. I program in Ruby (on Rails) these days on [helpster.de][2] and [pointoo.de][3].
+
+Since we take care of our own infrastructure, I also know a little bit about Chef and server configuration.
+
+## Cultural hacker
 
 I boost our company culture by organizing events and bringing people together.
 
-After work I programm, try to learn english, french, play the guitar, walk around the nearby lake, eat steaks, drink a good mug full of coffee, read book, meditated and play.
+I also established some regular events at Gutefrage like the OpenHack Munich, our IT drinkup, a group where we polish our presentation skills, a company wide lunch and some more ;)
 
-When I find enough time I post my thoughts on this blog.
+Great company cultures exist, because people just start living them. I try to do this.
+
+## Traveler
+
+I travel a lot. I visited ~33 countries during my lifetime. Most of them in the last 3 years.
+
+I think that traveling, made me a better person.
+
+{% img /images/uploads/2013-08/antartica.jpg %}
+
+This is me eating ice, while watching onto the Antarctica peninsula. To understand my facial expression, you should know that I am on a low carb diet and was kind of surprised ;)
+
+## Self-improver
+
+After work I try to invest into my skills and mind. That means: I exercise, meditate and do all other kinds of crazy stuff.
+
+I try to be systematic about it — you can follow my progress on [Lift][12].
 
 ## Places you can find me
 
